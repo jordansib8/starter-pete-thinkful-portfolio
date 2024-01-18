@@ -11,14 +11,60 @@ body {
 /* Headings */
 h1,
 h2,
-h3 {
+h3
+{
   font-family: "Playfair Display", Times, serif;
   text-align: center;
+}
+
+/* Header Redesign */
+.header-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav{
+  padding-top: 32px;
+  padding-left: 20px;
 }
 
 /* Header */
 header {
   text-align: center;
+}
+
+/* About section redesign */
+.section-container {
+ display: flex;
+ flex-direction: row;
+}
+
+.section-item-2{
+  text-align: left;
+}
+
+/* Portfolio section redesign */
+.portfolio-container {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-item-1{
+  padding-right: 15px;
+  padding-top: 30px;
+}
+.portfolio-item-2{
+  padding-right: 15px;
+  padding-top: 15px;
+}
+.portfolio-item-3{
+  padding-bottom: 20px;
+}
+
+p2{
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 /* Containers */
